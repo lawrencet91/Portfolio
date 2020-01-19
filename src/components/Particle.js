@@ -7,7 +7,7 @@ import {
   faChevronCircleDown
 } from "@fortawesome/free-solid-svg-icons";
 
-const resume = require("../resume/Amin_Fazl.pdf");
+const resume = require("../resume/CV.pdf");
 
 const particleconfig = {
   particles: {
@@ -127,18 +127,15 @@ function Particle() {
 
       <div className="header">
         <h1>
-          Amin
+          Lawrence
           <br />
-          Fazl
+          Tan
         </h1>
-        <h2>Senior Software Developer</h2>
+        <h2>Web Developer</h2>
         <Contact />
         <div className="pagelinks">
           <a className="pagenav" href="#aboutMe">
             About Me
-          </a>
-          <a className="pagenav" href="#projects">
-            Projects
           </a>
           <a className="pagenav" href={resume} download>
             Resume <FontAwesomeIcon icon={faDownload} />

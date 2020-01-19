@@ -13,7 +13,7 @@ function Contact() {
       <a
         title="Linkedin"
         className="fa"
-        href="https://www.linkedin.com/in/amin-fazl/"
+        href="https://www.linkedin.com/in/lawrence-tan-872522112/"
         target="new"
       >
         <FontAwesomeIcon icon={faLinkedinIn} />
@@ -21,19 +21,12 @@ function Contact() {
       <a
         title="Github"
         className="fa2"
-        href="https://github.com/aminfaz"
+        href="https://github.com/lawrencet91"
         target="new"
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a
-        title="HACKERRANK"
-        className="fa"
-        href="https://www.hackerrank.com/amin_fazl"
-        target="new"
-      >
-        <FontAwesomeIcon icon={faHackerrank} />
-      </a>
+
     </div>
   );
 }

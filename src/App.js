@@ -3,8 +3,8 @@ import ReactGA from 'react-ga';
 import "react-vertical-timeline-component/style.min.css";
 import "./App.css";
 import Particle from "./components/Particle";
-import Projects from "./components/Projects";
 import About from "./components/About";
+import Certificate from "./components/Certificate"
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 
@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <Particle />
       <About />
+      <Certificate />
       <Timeline />
-      <Projects />
       <Footer />
     </div>
   );
