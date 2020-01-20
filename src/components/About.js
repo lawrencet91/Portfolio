@@ -11,6 +11,7 @@ import {
 const lambda = require("../images/logos/aws-lambda.svg");
 const gateway = require("../images/logos/aws-api-gateway.svg");
 const csharp = require("../images/logos/csharp-original.svg");
+const amplify = require("../images/logos/amplify.png");
 
 function About() {
   return (
@@ -26,6 +27,7 @@ function About() {
         <img src={csharp} alt="C#" />
         <img src={gateway} alt="AWS API Gateway" />
         <img src={lambda} alt="AWS Lambda" />
+        <img src={amplify} alt="AWS Lambda" />
         <FontAwesomeIcon icon={faJs} color="#ffd43b" />
         <FontAwesomeIcon icon={faAngular} color="#D30025" />
         <FontAwesomeIcon icon={faReact} color="#61dbfb" />

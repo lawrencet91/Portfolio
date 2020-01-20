@@ -1,8 +1,7 @@
 import React from "react";
 import Contact from "./Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faReact } from "@fortawesome/free-brands-svg-icons";
-import { faCode, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faCoffee, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -13,9 +12,9 @@ function Footer() {
       <Contact />
       <div className="made">
         <h2>
-          <FontAwesomeIcon icon={faCode} /> with{" "}
-          <FontAwesomeIcon icon={faHeart} /> on{" "}
-          <FontAwesomeIcon icon={faReact} />{" "}
+          <FontAwesomeIcon icon={faLaptopCode} /> with{" "}
+          <FontAwesomeIcon icon={faCoffee} /> on{" "}
+          <FontAwesomeIcon icon={faCodeBranch} />{" "}
         </h2>
       </div>
     </div>
